@@ -1,0 +1,14 @@
+// 复制一份这个配置，重命名为 wecos.config.json, 注意 wecos.config.json 不推入仓库，要记到 .gitignore 中
+// 由于是 json 格式，复制后的文件移除这些注释，加好 secret_id, secret_key, cosBaseUrl 等
+{
+  "cosBaseUrl": "https://dta-1234567890.cos.ap-beijing.myqcloud.com/mina/",
+  "appDir": "./cos/upload",
+  "backupDir": "./cos/images",
+  "cos": {
+    "secret_id": "",
+    "secret_key": "",
+    "bucket": "dta-1234567890",
+    "region": "ap-beijing",
+    "folder": "mina"
+  }
+}
